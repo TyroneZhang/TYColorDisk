@@ -19,7 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
     UIImage *image = [UIImage imageNamed:@"halo"];
     image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
@@ -28,7 +27,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - TYAnnulusColorViewDelegate
@@ -36,7 +34,6 @@
 
 - (void)colorChangeWithNewColor:(UIColor *)color
 {
-//    self.lightImageView.backgroundColor = color;
     self.view.tintColor = color;
 }
 
