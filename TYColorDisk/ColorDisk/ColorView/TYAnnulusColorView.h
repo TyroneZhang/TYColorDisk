@@ -10,7 +10,9 @@
 
 @protocol TYAnnulusColorViewDelegate <NSObject>
 
-- (void)colorChangeWithNewColor:(UIColor *)color;
+@optional
+- (void)colorChangedWithNewColor:(UIColor *)color;
+- (void)colorChangedWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue;
 
 - (void)brightnessChangedWithNumber:(NSInteger)brihtnessNumber;
 

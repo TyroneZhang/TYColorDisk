@@ -303,8 +303,12 @@ static const CGFloat kNormalBrightnessNumber = 60.0;
         
         __weak typeof(self) weakSelf = self;
         [self.gradientGroup changeValueWithDegreeValue:value direction:direction animatable:NO Block:^(CGFloat red, CGFloat green, CGFloat blue) {
-            if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(colorChangeWithNewColor:)]) {
-                [weakSelf.delegate colorChangeWithNewColor:[UIColor colorWithRed:red/kMaxColorValue green:green/kMaxColorValue blue:blue/kMaxColorValue alpha:1.0]];
+            if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(colorChangedWithNewColor:)]) {
+                [weakSelf.delegate colorChangedWithNewColor:[UIColor colorWithRed:red/kMaxColorValue green:green/kMaxColorValue blue:blue/kMaxColorValue alpha:1.0]];
+            }
+            
+            if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(colorChangedWithRed:green:blue:)]) {
+                [weakSelf.delegate colorChangedWithRed:red green:green blue:blue];
             }
         }];
     }
@@ -325,8 +329,12 @@ static const CGFloat kNormalBrightnessNumber = 60.0;
         for (NSInteger i = 0; i <= ((int)value / kMaxColorValue); i++) {
             CGFloat perValue = kMaxColorValue * (i+1) < value ? kMaxColorValue : (int)value % (int)kMaxColorValue ;
             [self.gradientGroup changeValueWithDegreeValue:perValue direction:direction animatable:YES Block:^(CGFloat red, CGFloat green, CGFloat blue) {
-                if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(colorChangeWithNewColor:)]) {
-                    [weakSelf.delegate colorChangeWithNewColor:[UIColor colorWithRed:red/kMaxColorValue green:green/kMaxColorValue blue:blue/kMaxColorValue alpha:1.0]];
+                if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(colorChangedWithNewColor:)]) {
+                    [weakSelf.delegate colorChangedWithNewColor:[UIColor colorWithRed:red/kMaxColorValue green:green/kMaxColorValue blue:blue/kMaxColorValue alpha:1.0]];
+                }
+                
+                if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(colorChangedWithRed:green:blue:)]) {
+                    [weakSelf.delegate colorChangedWithRed:red green:green blue:blue];
                 }
             }];
         }
@@ -353,5 +361,6 @@ static const CGFloat kNormalBrightnessNumber = 60.0;
         [self.delegate brightnessChangedWithNumber:brightNumber];
     }
 }
+
 
 @end

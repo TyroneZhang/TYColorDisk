@@ -37,6 +37,11 @@
     self.view.tintColor = color;
 }
 
+- (void)colorChangedWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue
+{
+
+}
+
 - (void)brightnessChangedWithNumber:(NSInteger)brihtnessNumber
 {
     self.brightLabel.text = [NSString stringWithFormat:@"%ld%%",brihtnessNumber];
