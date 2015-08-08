@@ -35,6 +35,6 @@ Here is an gif file which can show you what it exactly does.("ColorDisk.gif" fil
 ## How to use this project?
 
 The color disk provides red[0, 255],green[0, 255],blue[0,255] and white[0, N(default : 100)] number. If you want to get RGB or white number,you should implement `TYAnnulusColorViewDelegate`.
-To get UIColor value,you should implement SEL of `- (void)colorChangeWithNewColor:(UIColor *)color`.
-To get RGB value,you should implement SELF of `- (void)colorChangedWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue`.
-To get white value,you should implement SELF of `- (void)brightnessChangedWithNumber:(NSInteger)brihtnessNumber`.
+To get UIColor value,you should implement SEL of `- (void)colorChangedWithNewColor:(UIColor *)color`.
+To get RGB value,you should implement SEL of `- (void)colorChangedWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue`.
+To get white value,you should implement SEL of `- (void)brightnessChangedWithNumber:(NSInteger)brihtnessNumber`.

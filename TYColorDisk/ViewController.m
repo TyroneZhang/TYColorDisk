@@ -32,7 +32,7 @@
 #pragma mark - TYAnnulusColorViewDelegate
 #pragma mark -
 
-- (void)colorChangeWithNewColor:(UIColor *)color
+- (void)colorChangedWithNewColor:(UIColor *)color
 {
     self.view.tintColor = color;
 }
