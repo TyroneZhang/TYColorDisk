@@ -26,6 +26,7 @@ static const NSInteger kMinOfBrightnessNumber = 1;
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     self.backgroundColor = [UIColor clearColor];
 }
 

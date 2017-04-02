@@ -49,6 +49,7 @@ static const CGFloat kNormalBrightnessNumber = 60.0;
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     if (!self.hasLoadedAwakeNib) {
         self.hasLoadedAwakeNib = YES;
         
