@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "525E06B21B6A5CA0002899F6"
+               BlueprintIdentifier = "5251A9C11E920B1E0002E698"
                BuildableName = "TYColorDisk.app"
                BlueprintName = "TYColorDisk"
-               ReferencedContainer = "container:TYColorDisk.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "525E06CB1B6A5CA0002899F6"
-               BuildableName = "TYColorDiskTests.xctest"
-               BlueprintName = "TYColorDiskTests"
                ReferencedContainer = "container:TYColorDisk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "525E06CB1B6A5CA0002899F6"
+               BlueprintIdentifier = "5251A9DA1E920B1E0002E698"
                BuildableName = "TYColorDiskTests.xctest"
                BlueprintName = "TYColorDiskTests"
+               ReferencedContainer = "container:TYColorDisk.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5251A9E51E920B1E0002E698"
+               BuildableName = "TYColorDiskUITests.xctest"
+               BlueprintName = "TYColorDiskUITests"
                ReferencedContainer = "container:TYColorDisk.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "525E06B21B6A5CA0002899F6"
+            BlueprintIdentifier = "5251A9C11E920B1E0002E698"
             BuildableName = "TYColorDisk.app"
             BlueprintName = "TYColorDisk"
             ReferencedContainer = "container:TYColorDisk.xcodeproj">
@@ -79,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "525E06B21B6A5CA0002899F6"
+            BlueprintIdentifier = "5251A9C11E920B1E0002E698"
             BuildableName = "TYColorDisk.app"
             BlueprintName = "TYColorDisk"
             ReferencedContainer = "container:TYColorDisk.xcodeproj">
@@ -98,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "525E06B21B6A5CA0002899F6"
+            BlueprintIdentifier = "5251A9C11E920B1E0002E698"
             BuildableName = "TYColorDisk.app"
             BlueprintName = "TYColorDisk"
             ReferencedContainer = "container:TYColorDisk.xcodeproj">

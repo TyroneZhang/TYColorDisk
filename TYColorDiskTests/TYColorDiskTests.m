@@ -2,11 +2,10 @@
 //  TYColorDiskTests.m
 //  TYColorDiskTests
 //
-//  Created by Demon_Yao on 7/30/15.
-//  Copyright (c) 2015 Tyrone Zhang. All rights reserved.
+//  Created by Demon_Yao on 03/04/2017.
+//  Copyright © 2017 Tyrone Zhang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
 @interface TYColorDiskTests : XCTestCase
@@ -27,7 +26,7 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
 - (void)testPerformanceExample {
