@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2548a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -59,11 +59,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0Q-Y3-3ll">
-                                <rect key="frame" x="212.5" y="153" width="50" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Puj-xZ-UUl"/>
-                                    <constraint firstAttribute="width" constant="50" id="ecP-e8-PdC"/>
-                                </constraints>
+                                <rect key="frame" x="178" y="198" width="18.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.59401747959999995" green="0.59802061880000001" blue="0.62376767109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -71,14 +67,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Qe-Y9-VmL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="2bg-03-0Wu"/>
-                            <constraint firstItem="B0Q-Y3-3ll" firstAttribute="top" secondItem="UtZ-PE-cKG" secondAttribute="bottom" constant="-37" id="5bh-94-tZI"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KIq-Pj-jzu" secondAttribute="bottom" constant="80" id="BpK-Bl-obI"/>
                             <constraint firstAttribute="centerX" secondItem="6Qe-Y9-VmL" secondAttribute="centerX" id="D77-sF-YRi"/>
-                            <constraint firstItem="UtZ-PE-cKG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="I6r-Kd-mt2"/>
                             <constraint firstAttribute="centerX" secondItem="KIq-Pj-jzu" secondAttribute="centerX" id="LUl-mV-lf8"/>
+                            <constraint firstItem="UtZ-PE-cKG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Lvv-qx-czu"/>
+                            <constraint firstItem="B0Q-Y3-3ll" firstAttribute="top" secondItem="6Qe-Y9-VmL" secondAttribute="bottom" constant="8" id="SCO-kg-uhj"/>
                             <constraint firstAttribute="centerX" secondItem="UtZ-PE-cKG" secondAttribute="centerX" id="UMi-QM-DSy"/>
-                            <constraint firstItem="B0Q-Y3-3ll" firstAttribute="leading" secondItem="UtZ-PE-cKG" secondAttribute="trailing" constant="-50" id="X0k-TO-QdI"/>
+                            <constraint firstItem="B0Q-Y3-3ll" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UdP-zs-EWj"/>
+                            <constraint firstItem="6Qe-Y9-VmL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="fcI-Nw-35U"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KIq-Pj-jzu" secondAttribute="bottom" constant="80" id="id8-y2-BXQ"/>
                         </constraints>
                     </view>
                     <connections>
